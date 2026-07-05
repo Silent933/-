@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Our Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Digital Development Agency",
+    "headline": "We Are the Core From Which Your Digital Product Is Built",
+    "subtitle": "We craft unforgettable digital experiences — from design to launch, every step with precision and professionalism.",
+    "cta": {
+      "primary": "Start Your Project",
+      "secondary": "Our Work",
+      "tertiary": "Discover More"
+    }
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "body": "Nawah isn't just a development studio — we are the core around which your digital business orbits. We believe every successful digital product starts from a solid center: clear vision, precise design, and unbreakable code. That's what we build for every client.",
+    "readMore": "Read More"
+  },
+  "stats": {
+    "eyebrow": "By the Numbers",
+    "title": "Our Impact So Far",
+    "projects": "Completed Project",
+    "clients": "Happy Client"
+  },
+  "process": {
+    "eyebrow": "How We Work",
+    "title": "From Idea to Launch",
+    "1": { "num": "01", "title": "Discovery", "body": "We sit with you and understand your project from the inside out. Your goals, your audience, your competitors. We don't start until we understand everything." },
+    "2": { "num": "02", "title": "Design", "body": "We translate understanding into visual experience. Interfaces that impress, flows that persuade, identity that distinguishes." },
+    "3": { "num": "03", "title": "Development", "body": "We build what we designed with clean, fast, and secure code. Admin panel, payment integration, responsive on every screen." },
+    "4": { "num": "04", "title": "Launch & Support", "body": "We launch with you, not hand off and leave. Continuous technical support, updates, and ongoing development." }
+  },
+  "services": {
+    "eyebrow": "What We Offer",
+    "title": "Our Services",
+    "web": { "title": "Website Design & Development", "body": "We design and build websites that attract visitors and convert them into clients. From a captivating interface to an admin panel that simplifies your life." },
+    "app": { "title": "App Development", "body": "iOS and Android apps that give your customers an unforgettable seamless experience — fast, beautiful, and error-free." },
+    "sw": { "title": "Software & Systems", "body": "Custom systems to manage your business: inventory, orders, reports, employees. Everything in one place, controlled with a tap." },
+    "more": "Discover More"
+  },
+  "features": {
+    "eyebrow": "Why Nawah",
+    "title": "What Makes Us Different",
+    "admin": { "title": "Integrated Admin Dashboard", "body": "You don't need a developer to update your site. Add a product, change a price, or publish news from a simple control panel designed specifically for you." },
+    "pay": { "title": "E-Payment Integration", "body": "Accept your customers' payments professionally. We integrate payment gateways suited to your market with complete security and a smooth buyer experience." },
+    "support": { "title": "Ongoing Post-Launch Support", "body": "We don't disappear after launch. Our team is available to solve any problem, apply any update, and answer every question." },
+    "social": { "title": "Social Media Integration", "body": "Link your site to Instagram, WhatsApp, and TikTok seamlessly. Every interaction in its right place without any effort." },
+    "speed": { "title": "Speed & Professionalism", "body": "We work seriously without procrastination. Your project deserves full attention from day one to the last line of code." },
+    "rtl": { "title": "Full Arabic & RTL Support", "body": "Our sites work in Arabic just as well as in English — professional Arabic fonts and correct right-to-left layout." },
+    "resp": { "title": "Fully Responsive Design", "body": "Your site looks perfect on mobile, tablet, and laptop. No compromises, no shortcuts." },
+    "seo": { "title": "Built-in SEO Optimization", "body": "We build your site so search engines find it easily. More visibility = more customers." }
+  },
+  "clients": {
+    "eyebrow": "Partners in Success",
+    "title": "Our Clients"
+  },
+  "team": {
+    "eyebrow": "The People",
+    "title": "Our Team",
+    "ceo": { "name": "Abdulrahman Al-Ladhiqani", "role": "Chief Executive Officer" },
+    "backend": { "name": "Amir Al-Mara'i", "role": "Backend Developer & UX" },
+    "frontend": { "name": "Al-Lujain Shublut", "role": "Frontend Developer & UI" }
+  },
+  "testi": {
+    "eyebrow": "What They Said",
+    "title": "What Our Clients Say",
+    "subtitle": "Every word below comes from a real partnership built from the core.",
+    "1": { "quote": "We aspire to be the number one technology and development company in Syria.", "name": "Abdulrahman Al-Ladhiqani", "role": "CEO of Nawah" }
+  },
+  "faq": {
+    "eyebrow": "Got Questions?",
+    "title": "Frequently Asked Questions",
+    "q1": "What exactly do I get when I order a website from Nawah?",
+    "a1": "You get a website fully designed for your project, with a control panel that lets you manage content yourself, and clean code that you own. Includes: professional design, bilingual content if needed, social media integration, and one month of free technical support after launch.",
+    "q2": "How long does it take to build a website?",
+    "a2": "It depends on the project size. A simple site may take two weeks. A full e-commerce site may need a month or more. We set the timeline with you from the start and stick to it.",
+    "q3": "How much does it cost?",
+    "a3": "Every project is unique, and the price depends on your exact needs. Contact us via WhatsApp and tell us about your project — we'll send you a detailed quote for free within 24 hours.",
+    "q4": "Can I update the site myself after receiving it?",
+    "a4": "Yes — this is one of our top priorities. We integrate a simple control panel that lets you edit text, add products, and upload images without any technical knowledge.",
+    "q5": "What happens after the website launches?",
+    "a5": "We provide one month of free technical support. After that, you can subscribe to a monthly maintenance plan, or contact us for each request individually. We don't abandon you.",
+    "q6": "Do you support Arabic websites with right-to-left layout?",
+    "a6": "Absolutely. All our sites fully support Arabic — professional Arabic fonts, correct RTL layout, and a completely natural user experience.",
+    "q7": "Does the website work perfectly on mobile?",
+    "a7": "Yes. Every site we build is designed mobile-first, then for larger screens. We test it on multiple devices before delivery."
+  },
+  "footer": {
+    "tagline": "From the core — everything is built.",
+    "links": "Quick Links",
+    "contact": "Contact Us",
+    "whatsapp": "Message Us on WhatsApp",
+    "online": "Available Now",
+    "copyright": "© 2025 Nawah. All rights reserved.",
+    "privacy": "Privacy Policy"
+  },
+  "port": {
+    "eyebrow": "Our Work",
+    "title": "What We've Built",
+    "subtitle": "Every project here was built with the same precision we promise you.",
+    "feat": { "eyebrow": "Featured Project" },
+    "pk": { "desc": "A complete website for Pizza Khanum restaurant — modern design, smooth ordering experience, and a bilingual interface that authentically reflects the restaurant's identity." },
+    "visit": "Visit Live Site",
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "soon": "Coming Soon",
+    "more": { "title": "More Projects Coming" },
+    "tech": { "title": "Our Tech Stack" },
+    "proj": { "title": "Project Name", "desc": "Short project description" }
+  },
+  "ab": {
+    "eyebrow": "Our Story",
+    "title": "About Us",
+    "subtitle": "A small agency with limitless ambition.",
+    "story": {
+      "eyebrow": "The Beginning",
+      "title": "How Nawah Started",
+      "p1": "Nawah was born from a simple observation: the Syrian market needs a digital development company that delivers global quality with deep local understanding.",
+      "p2": "Just as the atomic nucleus contains all the energy of the atom, we believe every successful digital product needs a solid core: clear vision, precise design, and code that endures. We are that core.",
+      "p3": "We aspire to be the number one digital development company in Syria — not through claims, but through work and results."
+    },
+    "pullquote": "Like the nucleus at the heart of matter — we are the center from which your digital world is built.",
+    "vision": {
+      "eyebrow": "Where We're Going",
+      "title": "Our Vision & Mission",
+      "label": "Vision",
+      "body": "To be the number one digital development company in Syria — the reference that business owners turn to when they want a digital presence worthy of their ambitions."
+    },
+    "mission": {
+      "label": "Mission",
+      "body": "To transform our clients' ideas into world-class digital products — with design that dazzles, code that endures, and support that never stops."
+    },
+    "val": {
+      "eyebrow": "What We Believe",
+      "title": "Our Values",
+      "1": { "title": "Excellence", "body": "We refuse the ordinary. Every project we deliver represents the highest standard we can achieve." },
+      "2": { "title": "Innovation", "body": "We always seek the smartest solution, not the easiest. Creativity isn't an option — it's our way of working." },
+      "3": { "title": "Reliability", "body": "Our deadlines are promises. Our clients know that what we commit to will arrive on time and at quality." },
+      "4": { "title": "Partnership", "body": "We're not vendors — we're partners. Your project's success is our success, and its failure keeps us up at night just as it does you." }
+    },
+    "goals": {
+      "eyebrow": "The Road Ahead",
+      "title": "Our Future Goals",
+      "1": { "year": "2025", "body": "Establish Nawah as a trusted name in Syria's digital development market." },
+      "2": { "year": "2026", "body": "Launch 20+ successful digital products for clients across various sectors." },
+      "3": { "year": "2027", "body": "Expand toward the broader Arab market — same quality, wider reach." },
+      "4": { "year": "Beyond", "body": "Be the nucleus around which the region's digital transformation orbits." }
+    },
+    "cta": {
+      "title": "Ready to Build Your Digital Product?",
+      "body": "Let us be the core from which everything begins.",
+      "btn": "Start Now"
+    }
+  },
+  "404": {
+    "title": "This Page Has Lost Its Orbit",
+    "body": "But the nucleus is still here. Let us bring you back to the center.",
+    "cta": "Back to Home"
+  }
+}

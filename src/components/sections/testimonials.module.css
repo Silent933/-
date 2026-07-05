@@ -1,0 +1,39 @@
+.testi__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 600px);
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.testi-card {
+  text-align: center;
+}
+
+.testi-card__stars {
+  font-size: var(--t-lg);
+  color: var(--c-gold);
+  margin-bottom: 1.5rem;
+  letter-spacing: 4px;
+}
+
+.testi-card__quote {
+  font-size: var(--t-lg);
+  line-height: var(--lh-relaxed);
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.testi-card__author {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.testi-card__name {
+  font-weight: 700;
+  font-size: var(--t-base);
+}
+
+.testi-card__role {
+  font-size: var(--t-sm);
+}

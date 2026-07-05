@@ -1,0 +1,38 @@
+.about-brief {
+  background: var(--bg-elevated);
+}
+
+.about-brief__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.about-brief__body {
+  font-weight: 500;
+  line-height: var(--lh-relaxed);
+  color: var(--text-secondary);
+}
+
+.about-brief__nucleus {
+  width: 260px;
+  height: 260px;
+  justify-self: center;
+  border-radius: 50%;
+  border: 1px solid var(--border-subtle);
+  background: radial-gradient(circle at 30% 30%, var(--c-gold-06), transparent 70%);
+}
+
+@media (max-width: 768px) {
+  .about-brief__grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-brief__nucleus {
+    width: 180px;
+    height: 180px;
+  }
+}

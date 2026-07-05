@@ -1,0 +1,90 @@
+.nucleus {
+  position: relative;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+/* Sizes */
+.nucleus--hero    { width: 560px; height: 560px; }
+.nucleus--section { width: 310px; height: 310px; }
+.nucleus--card    { width: 90px;  height: 90px;  }
+.nucleus--micro   { width: 46px;  height: 46px;  }
+
+/* Static: no animations */
+.nucleus--static .nucleus__core,
+.nucleus--static .nucleus__ring-1,
+.nucleus--static .nucleus__ring-2,
+.nucleus--static .nucleus__ring-3,
+.nucleus--static .nucleus__ring-4 {
+  animation: none !important;
+}
+
+/* All layers overlap at center */
+.nucleus__layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+/* Core pulse */
+.nucleus__core {
+  animation: corePulse 3.5s ease-in-out infinite;
+}
+
+@keyframes corePulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 14px rgba(201, 168, 76, 0.55));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 30px rgba(201, 168, 76, 0.85));
+    transform: scale(1.065);
+  }
+}
+
+/* Ring rotations */
+.nucleus__ring-1 { animation: rotateCW 18s linear infinite; }
+.nucleus__ring-2 { animation: rotateCCW 28s linear infinite; }
+.nucleus__ring-3 { animation: rotateCW 40s linear infinite; }
+.nucleus__ring-4 { animation: rotateCCW 58s linear infinite; }
+
+@keyframes rotateCW  { to { transform: rotate(360deg); } }
+@keyframes rotateCCW { to { transform: rotate(-360deg); } }
+
+/* Hover: accelerate */
+.nucleus:hover .nucleus__ring-1 { animation-duration: 5s;  }
+.nucleus:hover .nucleus__ring-2 { animation-duration: 8s;  }
+.nucleus:hover .nucleus__ring-3 { animation-duration: 13s; }
+.nucleus:hover .nucleus__ring-4 { animation-duration: 22s; }
+.nucleus:hover .nucleus__core   { animation-duration: 0.8s; }
+
+/* Dark mode color flips */
+[data-theme="dark"] .nucleus__ring-1 polygon {
+  stroke: rgba(240, 238, 233, 0.85);
+}
+
+[data-theme="dark"] .nucleus__ring-2 polygon {
+  stroke: rgba(201, 168, 76, 0.70);
+}
+
+[data-theme="dark"] .nucleus__ring-3 polygon {
+  stroke: rgba(240, 238, 233, 0.30);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .nucleus__core,
+  .nucleus__ring-1,
+  .nucleus__ring-2,
+  .nucleus__ring-3,
+  .nucleus__ring-4 {
+    animation: none !important;
+  }
+
+  .nucleus__core {
+    filter: drop-shadow(0 0 14px rgba(201, 168, 76, 0.55));
+  }
+}

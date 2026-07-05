@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Outer Navy Ring (open at top) -->
+  <polyline
+    points="166.5,105.4 83,250 166.5,394.6 333.5,394.6 417,250 333.5,105.4"
+    fill="none" stroke="#0E1C3D" stroke-width="66"
+    stroke-linejoin="round" stroke-linecap="round"
+    class="logo-outer"
+  />
+  <!-- Inner Navy Ring (complete) -->
+  <polygon
+    points="345.5,250 297.75,167.3 202.25,167.3 154.5,250 202.25,332.7 297.75,332.7"
+    fill="none" stroke="#0E1C3D" stroke-width="49" stroke-linejoin="round"
+    class="logo-inner"
+  />
+  <!-- Gold Core -->
+  <polygon
+    points="307,250 278.5,200.6 221.5,200.6 193,250 221.5,299.4 278.5,299.4"
+    fill="#F5A623"
+    class="logo-core"
+  />
+</svg>

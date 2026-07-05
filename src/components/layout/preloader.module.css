@@ -1,0 +1,122 @@
+.preloader {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-pre);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: var(--c-navy);
+  transition: transform 0.55s var(--ease-expo-in),
+              opacity 0.55s var(--ease-expo-in);
+}
+
+.preloader--hidden {
+  transform: scale(0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pre__system {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pre__mark {
+  width: 200px;
+  height: 200px;
+}
+
+.pre__ring-outer {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: drawRing 0.55s var(--ease-expo-out) 0.65s forwards;
+}
+
+.pre__ring-inner {
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
+  animation: drawRing 0.6s var(--ease-expo-out) 0.9s forwards;
+}
+
+.pre__core {
+  opacity: 0;
+  animation: fadeIn 0.35s var(--ease-back-out) 0.3s forwards;
+}
+
+@keyframes drawRing {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+.pre__wordmark {
+  font-family: var(--font-arabic), sans-serif;
+  font-size: var(--t-2xl);
+  font-weight: 800;
+  color: var(--text-on-dark);
+  opacity: 0;
+  animation: fadeIn 0.45s var(--ease-expo-out) 1.45s forwards;
+}
+
+.pre__bar {
+  width: 200px;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(240, 238, 233, 0.15);
+  overflow: hidden;
+}
+
+.pre__bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: var(--c-gold);
+  animation: barFill 0.5s var(--ease-expo-out) 1.8s forwards;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+@keyframes barFill {
+  to { transform: scaleX(1); }
+}
+
+.skip-anim {
+  position: absolute;
+  bottom: 2rem;
+  font-size: var(--t-sm);
+  color: rgba(240, 238, 233, 0.40);
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(240, 238, 233, 0.15);
+  border-radius: var(--radius-full);
+  transition: all var(--dur-fast) var(--ease-smooth);
+}
+
+.skip-anim:hover {
+  color: var(--text-on-dark);
+  border-color: rgba(240, 238, 233, 0.3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pre__ring-outer,
+  .pre__ring-inner,
+  .pre__core,
+  .pre__wordmark,
+  .pre__bar-fill {
+    animation: none !important;
+    opacity: 1;
+  }
+
+  .pre__ring-outer,
+  .pre__ring-inner {
+    stroke-dashoffset: 0;
+  }
+
+  .pre__bar-fill {
+    transform: scaleX(1);
+  }
+}

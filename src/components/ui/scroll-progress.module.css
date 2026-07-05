@@ -1,0 +1,51 @@
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--c-gold);
+  z-index: calc(var(--z-navbar) + 1);
+  transform-origin: left;
+  pointer-events: none;
+}
+
+[dir="rtl"] .scroll-progress {
+  transform-origin: right;
+}
+
+.hex-progress {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: var(--z-sticky);
+  width: 48px;
+  height: 48px;
+  pointer-events: none;
+}
+
+[dir="rtl"] .hex-progress {
+  right: auto;
+  left: 2rem;
+}
+
+.hex-progress svg {
+  width: 100%;
+  height: 100%;
+}
+
+.hex-progress__value {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .hex-progress {
+    display: none;
+  }
+}

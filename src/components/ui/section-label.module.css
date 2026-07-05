@@ -1,0 +1,22 @@
+.section-label {
+  position: fixed;
+  top: 5rem;
+  left: 1.5rem;
+  z-index: var(--z-sticky);
+  font-weight: 600;
+  letter-spacing: var(--ls-widest);
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  pointer-events: none;
+}
+
+[dir="rtl"] .section-label {
+  left: auto;
+  right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .section-label {
+    display: none;
+  }
+}
